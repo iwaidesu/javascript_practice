@@ -28,3 +28,4 @@ const myname ="高田純次"
 let favoritewoman="黒木メイサ"
 console.log(`私の名前は${myname}です。`);
 console.log(`好きな女性のタイプは${favoritewoman}です。`)
+console.log("キツネ顔で顔に特徴がある方がいいですね")
