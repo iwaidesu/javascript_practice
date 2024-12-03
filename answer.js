@@ -64,3 +64,34 @@ console.log(convertedToNumber, typeof convertedToNumber);
 let numberValue = 100;
 let convertedToString =String(numberValue)
 console.log(convertedToString, typeof convertedToString);
+
+// 練習問題1: 配列の操作
+// -------------------
+// 1. 自分の好きな食べ物を3つ含む配列を作成してください
+// 2. 配列の2番目の要素を別の食べ物に変更してください
+// 3. 配列の長さを表示してください
+
+// 練習問題2: オブジェクトの操作
+// --------------------------
+// 1. 自分自身を表すオブジェクトを作成してください（名前、年齢、趣味を含める）
+// 2. オブジェクトに新しいプロパティ（好きな色）を追加してください
+// 3. 年齢のプロパティを1つ増やしてください
+
+// 練習問題3: 参照の理解
+// ------------------
+// 1. 配列をコピーする方法を3つ試してください（slice, spread演算子, Array.from）
+// 2. オブジェクトをコピーする方法を2つ試してください（Object.assign, spread演算子）
+
+let myfavoritefoods = ["rice","misosoup","chikin"];
+myfavoritefoods [2] = "beef";
+console.log(myfavoritefoods,length);
+
+let me = {name:"高田純次", age:25, hobby:"サッカー"}
+me.favoritecolor="black";
+console.log(me)
+me.age+= 1;
+
+let number=[1,2,3,4,5];
+let number2 = number.slice();
+let number3 = [...number;
+let copy4 = Array.from(number);
